@@ -1,0 +1,33 @@
+/// to print factorial of a number ///
+#include <stdio.h>
+
+void factorial(int x)
+
+{
+    
+int i,fact=1;
+
+for( i=1;i<=x;i++)
+
+{
+    
+fact = fact*i;
+
+}
+
+printf( "factorial  is = %d",fact);
+
+}
+
+void main()
+
+{ 
+    
+int n;
+
+printf("enter the number:");
+scanf("%d",&n);
+
+factorial(n);
+
+}
